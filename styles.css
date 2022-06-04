@@ -10,11 +10,16 @@ body {
   margin-bottom: 3%;
 }
 
-.middle {
+.cagrCalc {
   background-color: #FEFBE7;
   padding: 1%;
+  margin-bottom: 3%;
 }
 
 .cellAdjusted {
   width: 15%;
+}
+
+.fvCalc {
+  background-color: #DAE5D0;
 }

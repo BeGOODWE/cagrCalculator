@@ -8,12 +8,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
+    <!-- Title and intro -->
     <div class="container-fluid start rounded">
       <span class="fs-4">CAGR Calculator</span>
       <p>After using a calculator every time I need to calculate CAGR I thought it might be worth making a tool for it!</p>
     </div>
 
-    <div class="container-fluid middle rounded">
+    <!-- CAGR Calculator -->
+    <div class="container-fluid cagrCalc rounded">
       <table class="table table-borderless">
         <thead>
           <th>Calculate CAGR</th>
@@ -37,7 +39,7 @@
       <table class="table table-borderless">
         <tbody>
           <tr>
-            <td class="cellAdjusted"><button class="btn btn-dark" type="button" name="button">Calculate</button></td>
+            <td class="cellAdjusted"><button class="cagrButton btn btn-dark" type="button" name="button">Calculate</button></td>
             <td><p class="result"></p></td>
           </tr>
           <tr>
@@ -45,9 +47,41 @@
           </tr>
         </tbody>
       </table>
+    </div>
 
+    <!-- Final value calculator -->
+    <div class="container-fluid fvCalc middle rounded">
+      <table class="table table-borderless">
+        <thead>
+          <th>Calculate New Price</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cellAdjusted"><label for="fvOldPrice">Old Price</label></td>
+            <td><input class="fvOld" type="text" name="fvOldPrice" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="fvTime">Time (in years)</label></td>
+            <td><input class="fvYears" type="text" name="fvTime" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="cagr">CAGR (in %)</label></td>
+            <td><input class="fvCAGR" type="text" name="cagr" value=""></td>
+          </tr>
+        </tbody>
+      </table>
 
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td class="cellAdjusted"><button class="fvButton btn btn-dark" type="button" name="button">Calculate</button></td>
+            <td><p class="fvResult"></p></td>
+          </tr>
+          <tr>
 
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="index.js" charset="utf-8"></script>
