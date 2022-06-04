@@ -84,6 +84,42 @@
       </table>
     </div>
 
+    <!-- Old value calculator -->
+    <div class="container-fluid pvCalc middle rounded">
+      <table class="table table-borderless">
+        <thead>
+          <th>Calculate Old Price</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cellAdjusted"><label for="pvNewPrice">New Price</label></td>
+            <td><input class="pvNew" type="text" name="pvNewPrice" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="pvTime">Time (in years)</label></td>
+            <td><input class="pvYears" type="text" name="pvTime" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="cagr">CAGR (in %)</label></td>
+            <td><input class="pvCAGR" type="text" name="cagr" value=""></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td class="cellAdjusted"><button class="pvButton btn btn-dark" type="button" name="button">Calculate</button></td>
+            <td><p class="pvResult"></p></td>
+          </tr>
+          <tr>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="mt-5 mb-3 text-muted conclusion">&copy; Nav Aithani</p>
     <script src="index.js" charset="utf-8"></script>
   </body>
 </html>

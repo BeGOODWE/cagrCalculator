@@ -1,6 +1,7 @@
 body {
-  padding: 5%;
+  padding: 5% 5% 1% 5%;
   font-size: 1rem;
+
 }
 
 .start {
@@ -22,4 +23,15 @@ body {
 
 .fvCalc {
   background-color: #DAE5D0;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+
+.pvCalc {
+  background-color: #A0BCC2;
+  padding: 1%;
+}
+
+.conclusion {
+  text-align: center;
 }
