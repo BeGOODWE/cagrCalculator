@@ -1,0 +1,16 @@
+body {
+  padding: 5%;
+  font-size: 1rem;
+}
+
+.start {
+  background-color: #F9EBC8;
+  height: 100px;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+
+.middle {
+  background-color: #FEFBE7;
+  padding: 1%;
+}
