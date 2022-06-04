@@ -14,16 +14,40 @@
     </div>
 
     <div class="container-fluid middle rounded">
-      <label for="newPrice">New Price</label>
-      <input class="new" type="text" name="newPrice" value="">
-      <br>
-      <label for="oldPrice">Old Price</label>
-      <input class="old" type="text" name="oldPrice" value="">
-      <br>
-      <label for="time">Time (in years)</label>
-      <input class="years" type="text" name="time" value="">
-      <p class="result">What's up</p>
-      <button class="btn btn-dark" type="button" name="button">Calculate</button>
+      <table class="table table-borderless">
+        <thead>
+          <th>Calculate CAGR</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cellAdjusted"><label for="newPrice">New Price</label></td>
+            <td><input class="new" type="text" name="newPrice" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="oldPrice">Old Price</label></td>
+            <td><input class="old" type="text" name="oldPrice" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="time">Time (in years)</label></td>
+            <td><input class="years" type="text" name="time" value=""></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td class="cellAdjusted"><button class="btn btn-dark" type="button" name="button">Calculate</button></td>
+            <td><p class="result">What's up</p></td>
+          </tr>
+          <tr>
+
+          </tr>
+        </tbody>
+      </table>
+
+
+
     </div>
 
     <script src="index.js" charset="utf-8"></script>

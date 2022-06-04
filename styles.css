@@ -14,3 +14,7 @@ body {
   background-color: #FEFBE7;
   padding: 1%;
 }
+
+.cellAdjusted {
+  width: 15%;
+}
